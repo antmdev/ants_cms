@@ -1,0 +1,23 @@
+
+/* CSS for pagination  - targeting pager > li > make class called active_link */
+
+.pager li .active_link {
+
+    background: lightblue !important;
+
+}
+
+.pagination li .active_link {
+
+    background: lightblue !important;
+
+}
+
+ /* WORKS for changing color but changes it all the time
+
+.pager li > a,
+
+/* a:link { color:#FFFFFF; text-decoration: none; } */
+/* a:visited { color:#FFFFFF; text-decoration: none; } */
+/* a:hover { color:#33348e; text-decoration: none; } */
+/* a:active { color:#FFFFFF; text-decoration: underline; } */

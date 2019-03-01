@@ -1,0 +1,17 @@
+{
+    "name": "antmilner/cms",
+    "require": {
+        "phpmailer/phpmailer": "5.2.23",
+        "pusher/pusher-php-server": "^3.2",
+        "vlucas/phpdotenv": "^2.5"
+    },
+
+    "autoload":{
+        "classmap": [
+            "classes"
+        ]
+        
+    }
+
+
+}

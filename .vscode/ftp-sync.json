@@ -1,0 +1,24 @@
+{
+    "remotePath": "./cms",
+    "host": "bugernator.com",
+    "username": "bugernator2@bugernator.com",
+    "password": ",r(Y@i8pk0i0",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}

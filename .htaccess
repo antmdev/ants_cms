@@ -1,0 +1,15 @@
+RewriteEngine On
+
+#(is the variable) $1 for 1 variable - when you see these ADD .php on it basically!
+
+RewriteRule ^(index|contact|registration|login)$ $1.php [NC,L]
+
+#when you see post - add a / 
+#()variable
+#\d+ means digit 
+#$end the variable
+#then whatever you find in the digit replace it with 1
+
+RewriteRule ^post/(\d+)$ post.php?p_id=$1 [NC,L]
+
+RewriteRule ^category/(\d+)$ category.php?category=$1 [NC,L]
